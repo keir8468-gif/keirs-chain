@@ -1,0 +1,6 @@
+build*/
+.DS_Store
+tests/*.f32
+tests/compare
+tests/kd_cmp
+tests/kd_diff

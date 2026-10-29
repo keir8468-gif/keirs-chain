@@ -1,0 +1,6 @@
+[
+ {"name":"defaults","tOn":true,"grid":"1/16","swing":50,"earlier":false,"shift":0,"mkOn":true,"drive":0,"eqOn":true,"bright":0,"brightFreq":10000,"eqPost":false,"xlOn":true,"out":0},
+ {"name":"driven","tOn":true,"grid":"1/16","swing":66,"earlier":false,"shift":2,"mkOn":true,"drive":20,"eqOn":true,"bright":6,"brightFreq":7000,"eqPost":false,"xlOn":true,"out":-3},
+ {"name":"crunch","tOn":true,"grid":"1/8","swing":58,"earlier":true,"shift":3,"mkOn":true,"drive":30,"eqOn":true,"bright":-8,"brightFreq":4000,"eqPost":true,"xlOn":true,"out":0},
+ {"name":"alloff","tOn":false,"grid":"1/16","swing":50,"earlier":false,"shift":0,"mkOn":false,"drive":0,"eqOn":false,"bright":0,"brightFreq":10000,"eqPost":false,"xlOn":false,"out":0}
+]
