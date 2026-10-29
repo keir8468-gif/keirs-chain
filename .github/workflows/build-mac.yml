@@ -40,15 +40,16 @@ jobs:
           sleep 3
           auval -v aufx Kcha Keir
 
-      - name: Zip
+      - name: Package
         run: |
           cp INSTALL.md dist/
-          cd dist && ditto -c -k --keepParent . "../KeirsChain-mac.zip"
+          mv dist "Keirs Chain"
+          ditto -c -k --sequesterRsrc --keepParent "Keirs Chain" KeirsChain-mac.zip
 
       - uses: actions/upload-artifact@v4
         with:
           name: KeirsChain-mac
-          path: KeirsChain-mac.zip
+          path: "Keirs Chain"
 
       - name: Release (on version tags)
         if: startsWith(github.ref, 'refs/tags/v')
